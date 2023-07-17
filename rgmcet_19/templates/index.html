@@ -1,0 +1,14 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'UI/main.css' %}" />
+<html>
+<center>
+<h1>Welcome to rgmcet</h1>
+<form method="post" type="form" action="validate" id="login">
+    {% csrf_token %}
+    <h2>Login</h2>
+    id number : <input type="text"  name="id"/><br><br>
+    password  : <input type="password" name="pswd"/><br><br>
+    <p><input type="submit" value="login" id="button"/></p><br>
+</form>
+</center>
+</html>

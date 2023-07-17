@@ -1,0 +1,24 @@
+form[id="login"],[id="reg"]{
+    width: 360px;
+    border : 3px solid;
+    border-color:aquamarine;
+    border-radius: 5px;
+    padding-block: 50px;
+    background-color:aqua;
+    align-self: center;
+    align-items: center;
+    margin-top: 140px;
+    /*max-width:max-content; */
+    
+}
+input{
+    border-radius: 5px;
+    border-width: 1px;
+}
+input[id="button"]{
+    background-color: dodgerblue;
+    width: 100px;
+    padding: 5px;
+    border-radius: 3px;
+    border-width: 1px;
+}
